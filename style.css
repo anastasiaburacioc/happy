@@ -1,27 +1,139 @@
-img {
+.ball-one {
   width: 5vw;
-position: absolute;
-bottom: -20%;
-left: 10vw;
-transform: rotate(3grad);
-  animation: ball 16s ease-in-out infinite;
+  position: absolute;
+  bottom: -20%;
+  left: 10vw;
+  transform: rotate(3grad);
+  animation: ball-one 18s ease-in-out infinite;
+  z-index: 3;
 }
 
-@keyframes ball{
-  
+@keyframes ball-one {
   25% {
     transform: rotate(-3grad);
   }
-     50% {
-       transform: rotate(3grad);
-     }
-            75% {
-              transform: rotate(-4grad);
-            }
-      
-            100% {
-              width: 35vw;
-              bottom: 110%;
-              transform: rotate(2grad);
-            }
+  50% {
+    transform: rotate(3grad);
+  }
+  75% {
+    transform: rotate(-4grad);
+  }
+  100% {
+    width: 35vw;
+    bottom: 110%;
+    transform: rotate(2grad);
+  }
+}
+
+.ball-two {
+  width: 0vw;
+  position: absolute;
+  bottom: 10%;
+  left: 50vw;
+  transform: rotate(1grad);
+  animation: ball-two 18s ease-in-out infinite;
+}
+
+@keyframes ball-two {
+  25% {
+    transform: rotate(3grad);
+  }
+  50% {
+    transform: rotate(-3grad);
+  }
+  75% {
+    transform: rotate(4grad);
+  }
+  100% {
+    width: 27vw;
+    bottom: 110%;
+    transform: rotate(-2grad);
+  }
+}
+
+.ball-three {
+  width: 3vw;
+  position: absolute;
+  bottom: 5%;
+  right: -10%;
+  transform: rotate(1grad);
+  animation: ball-three 17s ease-in-out infinite;
+}
+
+@keyframes ball-three {
+  25% {
+    transform: rotate(3grad);
+  }
+  50% {
+    transform: rotate(-3grad);
+  }
+  75% {
+    transform: rotate(4grad);
+  }
+  100% {
+    width: 30vw;
+    bottom: 110%;
+    right: 10%;
+    transform: rotate(-2grad);
+  }
+}
+
+.ball-four {
+  width: 3vw;
+  position: absolute;
+  bottom: 5%;
+  left: -5%;
+  transform: rotate(1grad);
+  animation: ball-four 20s ease-in-out infinite;
+}
+
+@keyframes ball-four {
+  25% {
+    transform: rotate(-3grad);
+  }
+
+  50% {
+    transform: rotate(3grad);
+  }
+
+  75% {
+    transform: rotate(-4grad);
+  }
+
+  100% {
+    width: 30vw;
+    bottom: 110%;
+    left: 10%;
+    transform: rotate(2grad);
+  }
+}
+
+.ball-five {
+  width: 3vw;
+  position: absolute;
+  bottom: -5%;
+  right: -5%;
+  transform: rotate(1grad);
+  animation: ball-five 20s ease-in-out infinite;
+}
+
+@keyframes ball-five {
+  25% {
+    transform: rotate(-3grad);
+  }
+
+  50% {
+    transform: rotate(3grad);
+  }
+
+  75% {
+    transform: rotate(-4grad);
+  }
+
+  100% {
+    width: 30vw;
+    bottom: 110%;
+    right: 10%;
+    transform: rotate(2grad);
+  }
 }
