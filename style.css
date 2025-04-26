@@ -1,0 +1,27 @@
+img {
+  width: 5vw;
+position: absolute;
+bottom: -20%;
+left: 10vw;
+transform: rotate(3grad);
+  animation: ball 16s ease-in-out infinite;
+}
+
+@keyframes ball{
+  
+  25% {
+    transform: rotate(-3grad);
+  }
+     50% {
+       transform: rotate(3grad);
+     }
+            75% {
+              transform: rotate(-4grad);
+            }
+      
+            100% {
+              width: 35vw;
+              bottom: 110%;
+              transform: rotate(2grad);
+            }
+}
