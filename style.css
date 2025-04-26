@@ -140,3 +140,162 @@ body {
     transform: rotate(2grad);
   }
 }
+
+.cloud-one {
+  width: 20vw;
+  position: absolute;
+  bottom: -5%;
+  right: 5%;
+  animation: cloud-one 40s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-one {
+    100% {
+    bottom: 110%;
+    right: 10%;
+  }
+}
+
+.cloud-two {
+  width: 15vw;
+  position: absolute;
+  bottom: 5%;
+  right: -5%;
+  animation: cloud-two 36s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-two {
+  100% {
+    bottom: 110%;
+    right: 30%;
+  }
+}
+
+.cloud-three {
+  width: 18vw;
+  position: absolute;
+  bottom: 5%;
+  left: -5%;
+  animation: cloud-three 37s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-three {
+  100% {
+    bottom: 110%;
+    left: 30%;
+  }
+}
+
+.cloud-four {
+  width: 18vw;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  animation: cloud-four 38s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-four {
+  100% {
+    bottom: 110%;
+    left: 50%;
+  }
+}
+
+.cloud-five {
+  width: 18vw;
+  position: absolute;
+  bottom: 1%;
+  left: 45%;
+  animation: cloud-five 40s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-five {
+  100% {
+    bottom: 110%;
+    left: 30%;
+  }
+}
+.cloud-six {
+  width: 20vw;
+  position: absolute;
+  bottom: -5%;
+  right: 5%;
+  animation: 40s cloud-six 6s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-six {
+  100% {
+    bottom: 110%;
+    right: 10%;
+  }
+}
+
+.cloud-seven {
+  width: 15vw;
+  position: absolute;
+  bottom: -5%;
+  right: -5%;
+  animation: 36s cloud-seven 4s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-seven {
+  100% {
+    bottom: 110%;
+    right: 30%;
+  }
+}
+
+.cloud-eight {
+  width: 18vw;
+  position: absolute;
+  bottom: -5%;
+  left: -5%;
+  animation: 37s cloud-eight 7s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-eight {
+  100% {
+    bottom: 110%;
+    left: 30%;
+  }
+}
+
+.cloud-nine {
+  width: 18vw;
+  position: absolute;
+  bottom: -5%;
+  left: 5%;
+  animation: 38s cloud-nine 5s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-nine {
+  100% {
+    bottom: 110%;
+    left: 50%;
+  }
+}
+
+.cloud-ten {
+  width: 18vw;
+  position: absolute;
+  bottom: -5%;
+  left: 45%;
+  animation: 40s cloud-ten 5s ease-in-out forwards;
+  z-index: -10;
+}
+
+@keyframes cloud-ten {
+  100% {
+    bottom: 110%;
+    left: 30%;
+  }
+}
