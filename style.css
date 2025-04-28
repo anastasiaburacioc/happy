@@ -1,5 +1,6 @@
 body {
   overflow: hidden;
+  background: tomato;
 }
 .ball-one {
   width: 5vw;
