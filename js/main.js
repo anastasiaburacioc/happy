@@ -3,9 +3,7 @@ console.log(balls);
 
 balls.forEach(element => {
   console.log(element);
-  element.addEventListener("touchstart", () => {
-    console.log("event start")
+  element.addEventListener("click", () => {
     element.remove();
-    console.log("event start done", startx,starty);
   });
 });
