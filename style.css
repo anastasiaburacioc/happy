@@ -1,6 +1,10 @@
 body {
   overflow: hidden;
-  background: tomato;
+  background: green;
+}
+
+img[class*="ball"] {
+  cursor: pointer;
 }
 .ball-one {
   width: 5vw;
