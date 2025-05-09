@@ -1,12 +1,11 @@
-:root {
-  --random-s: random(10vw, 20vw);
-}
 
 body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: red;
+  background-color: tomato;
+  padding: 0;
+  margin: 0;
 }
 
 .ball-background {
@@ -22,10 +21,15 @@ body {
   }
 }*/
 
+.text {
+position: relative;
+transform: translate(50%, 100%);
+}
+
 .ball-1 {
-  top: -40%;
-  left: -40%;
-  animation: ball-fall-1 10s ease forwards;
+  top: 20vw;
+  right: 10vw;
+ 
   z-index: 3;
 }
 
@@ -40,16 +44,16 @@ body {
     transform: rotate(-4grad);
   }
   100% {
-    top: 20vw;
-    left: 10vw;
+    top: 50vw;
+    right: 50vw;
     transform: rotate(0grad);
   }
 }
 
 .ball-2 {
-  top: -60vw;
-  left: -40vw;
-  animation: ball-fall-2 10s ease forwards;
+  top: 60vw;
+  left: 70vw;
+  /*animation: ball-fall-2 10s ease forwards;*/
 }
 
 @keyframes ball-fall-2 {
@@ -70,9 +74,9 @@ body {
 }
 
 .ball-3 {
-  top: 60vw;
-  left: 40vw;
-  animation: ball-fall-3 10s ease forwards;
+  top: 80vw;
+  left: 5vw;
+  
 }
 
 @keyframes ball-fall-3 {
@@ -96,9 +100,8 @@ body {
 }
 
 .ball-4 {
-  top: 100vw;
+  top: 80vh;
   left: 20vw;
-  animation: ball-fall-4 10s ease forwards;
 }
 
 @keyframes ball-fall-4 {
@@ -122,9 +125,9 @@ body {
 }
 
 .ball-5 {
-  top: -80vw;
-  left: -15vw;
-  animation: ball-fall-5 10s ease forwards;
+  top: 70vh;
+  left: 70vw;
+ 
 }
 
 @keyframes ball-fall-5 {
@@ -148,9 +151,9 @@ body {
 }
 
 .ball-6 {
-  top: -60vw;
-  left: -100vw;
-  animation: ball-fall-6 10s ease forwards;
+  top: 60vh;
+  left: 40vw;
+  
 }
 
 @keyframes ball-fall-6 {
@@ -174,9 +177,9 @@ body {
 }
 
 .ball-7 {
-  top: -70vw;
-  left: -10vw;
-  animation: ball-fall-7 10s ease forwards;
+  top: 60vh;
+  left: -2vw;
+  
 }
 
 @keyframes ball-fall-7 {
@@ -199,6 +202,59 @@ body {
   }
 }
 
+.ball-8 {
+  top: 20vh;
+  left: 30vw;
+
+}
+
+.ball-9 {
+  top: 45vh;
+  left: 70vw;
+
+}
+
+.ball-10 {
+  top: -2vh;
+  left: -1vw;
+
+}
+
+.ball-11 {
+  top: 2vh;
+  left: 45vw;
+
+}
+
+.ball-12 {
+  top: 18vh;
+  left: 5vw;
+
+}
+
+.ball-13 {
+  top: 40vh;
+  left: 40vw;
+
+}
+
+.ball-14 {
+  top: -5vh;
+  left: 80vw;
+
+}
+
+.ball-15 {
+  top: 90vh;
+  left: 80vw;
+
+}
+
+.ball-16 {
+  top: 90vh;
+  left: -2vw;
+
+}
 .cloud-two {
   width: 15vw;
   position: absolute;
