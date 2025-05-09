@@ -1,20 +1,35 @@
+:root {
+  --random-s: random(10vw, 20vw);
+}
+
 body {
   width: 100vw;
-  height: 100hw;
+  height: 100vh;
   overflow: hidden;
-   background-color: aquamarine;
+  background-color: red;
 }
-.ball-one {
-  width: 5vw;
-  position: absolute;
-  bottom: -20%;
-  left: 10vw;
-  transform: rotate(3grad);
-  animation: ball-one 25s ease infinite;
+
+.ball-background {
+  position: relative;
+}
+/*.ball-change {
+  animation: ball-fall 5s ease forwards;
+}*/
+
+/*@keyframes ball-fall {
+   100% {
+    transform: translateY(50px);
+  }
+}*/
+
+.ball-1 {
+  top: -40%;
+  left: -40%;
+  animation: ball-fall-1 10s ease forwards;
   z-index: 3;
 }
 
-@keyframes ball-one {
+@keyframes ball-fall-1 {
   25% {
     transform: rotate(-3grad);
   }
@@ -25,22 +40,19 @@ body {
     transform: rotate(-4grad);
   }
   100% {
-    width: 35vw;
-    bottom: 110%;
-    transform: rotate(2grad);
+    top: 20vw;
+    left: 10vw;
+    transform: rotate(0grad);
   }
 }
 
-.ball-two {
-  width: 0vw;
-  position: absolute;
-  bottom: 10%;
-  left: 50vw;
-  transform: rotate(1grad);
-  animation: ball-two 25s ease infinite;
+.ball-2 {
+  top: -60vw;
+  left: -40vw;
+  animation: ball-fall-2 10s ease forwards;
 }
 
-@keyframes ball-two {
+@keyframes ball-fall-2 {
   25% {
     transform: rotate(3grad);
   }
@@ -51,112 +63,139 @@ body {
     transform: rotate(4grad);
   }
   100% {
-    width: 27vw;
-    bottom: 110%;
-    transform: rotate(-2grad);
+  top: 40vw;
+    left: 5vw;
+    transform: rotate(0grad);
   }
 }
 
-.ball-three {
-  width: 3vw;
-  position: absolute;
-  bottom: 5%;
-  right: -10%;
-  transform: rotate(1grad);
-  animation: ball-three 24s ease infinite;
+.ball-3 {
+  top: 60vw;
+  left: 40vw;
+  animation: ball-fall-3 10s ease forwards;
 }
 
-@keyframes ball-three {
+@keyframes ball-fall-3 {
   25% {
     transform: rotate(3grad);
   }
+
   50% {
     transform: rotate(-3grad);
   }
+
   75% {
     transform: rotate(4grad);
   }
+
   100% {
-    width: 30vw;
-    bottom: 110%;
-    right: 10%;
-    transform: rotate(-2grad);
+    top: 60vw;
+    left: 20vw;
+    transform: rotate(0grad);
   }
 }
 
-.ball-four {
-  width: 3vw;
-  position: absolute;
-  bottom: 5%;
-  left: -5%;
-  transform: rotate(1grad);
-  animation: ball-four 27s ease infinite;
+.ball-4 {
+  top: 100vw;
+  left: 20vw;
+  animation: ball-fall-4 10s ease forwards;
 }
 
-@keyframes ball-four {
+@keyframes ball-fall-4 {
   25% {
-    transform: rotate(-3grad);
-  }
-
-  50% {
     transform: rotate(3grad);
   }
 
-  75% {
-    transform: rotate(-4grad);
-  }
-
-  100% {
-    width: 30vw;
-    bottom: 110%;
-    left: 10%;
-    transform: rotate(2grad);
-  }
-}
-
-.ball-five {
-  width: 3vw;
-  position: absolute;
-  bottom: -5%;
-  right: -5%;
-  transform: rotate(1grad);
-  animation: ball-five 27s ease infinite;
-}
-
-@keyframes ball-five {
-  25% {
+  50% {
     transform: rotate(-3grad);
   }
 
-  50% {
-    transform: rotate(3grad);
-  }
-
   75% {
-    transform: rotate(-4grad);
+    transform: rotate(4grad);
   }
 
   100% {
-    width: 30vw;
-    bottom: 110%;
-    right: 10%;
-    transform: rotate(2grad);
+    top: 10vw;
+    left: 0vw;
+    transform: rotate(0grad);
   }
 }
 
-.cloud-one {
-  width: 20vw;
-  position: absolute;
-  bottom: -5%;
-  right: 5%;
-  animation: cloud-one 40s ease forwards;
-  z-index: -10;
+.ball-5 {
+  top: -80vw;
+  left: -15vw;
+  animation: ball-fall-5 10s ease forwards;
 }
 
-@keyframes cloud-one {
-    100% {
-    bottom: 110%;
-    right: 10%;
+@keyframes ball-fall-5 {
+  25% {
+    transform: rotate(3grad);
+  }
+
+  50% {
+    transform: rotate(-3grad);
+  }
+
+  75% {
+    transform: rotate(4grad);
+  }
+
+  100% {
+    top: 85vw;
+    left: -5vw;
+    transform: rotate(0grad);
+  }
+}
+
+.ball-6 {
+  top: -60vw;
+  left: -100vw;
+  animation: ball-fall-6 10s ease forwards;
+}
+
+@keyframes ball-fall-6 {
+  25% {
+    transform: rotate(3grad);
+  }
+
+  50% {
+    transform: rotate(-3grad);
+  }
+
+  75% {
+    transform: rotate(4grad);
+  }
+
+  100% {
+    top: 10vw;
+    left: 40vw;
+    transform: rotate(0grad);
+  }
+}
+
+.ball-7 {
+  top: -70vw;
+  left: -10vw;
+  animation: ball-fall-7 10s ease forwards;
+}
+
+@keyframes ball-fall-7 {
+  25% {
+    transform: rotate(3grad);
+  }
+
+  50% {
+    transform: rotate(-3grad);
+  }
+
+  75% {
+    transform: rotate(4grad);
+  }
+
+  100% {
+    top: 65vw;
+    left: -15vw;
+    transform: rotate(0grad);
   }
 }
 
@@ -165,7 +204,7 @@ body {
   position: absolute;
   bottom: 5%;
   right: -5%;
-  animation: cloud-two 36s ease-in-out forwards;
+ /* animation: cloud-two 36s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -181,7 +220,7 @@ body {
   position: absolute;
   bottom: 5%;
   left: -5%;
-  animation: cloud-three 37s ease-in-out forwards;
+ /* animation: cloud-three 37s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -197,7 +236,7 @@ body {
   position: absolute;
   bottom: 15%;
   left: 5%;
-  animation: cloud-four 38s ease-in-out forwards;
+  /*animation: cloud-four 38s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -213,7 +252,7 @@ body {
   position: absolute;
   bottom: 1%;
   left: 45%;
-  animation: cloud-five 40s ease-in-out forwards;
+  /*animation: cloud-five 40s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -228,7 +267,7 @@ body {
   position: absolute;
   bottom: -5%;
   right: 5%;
-  animation: 40s cloud-six 6s ease-in-out forwards;
+  /*animation: 40s cloud-six 6s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -244,7 +283,7 @@ body {
   position: absolute;
   bottom: -5%;
   right: -5%;
-  animation: 36s cloud-seven 4s ease-in-out forwards;
+  /*animation: 36s cloud-seven 4s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -260,7 +299,7 @@ body {
   position: absolute;
   bottom: -5%;
   left: -5%;
-  animation: 37s cloud-eight 7s ease-in-out forwards;
+ /* animation: 37s cloud-eight 7s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -276,7 +315,7 @@ body {
   position: absolute;
   bottom: -5%;
   left: 5%;
-  animation: 38s cloud-nine 5s ease-in-out forwards;
+  /*animation: 38s cloud-nine 5s ease-in-out forwards;*/
   z-index: -10;
 }
 
@@ -292,7 +331,7 @@ body {
   position: absolute;
   bottom: -5%;
   left: 45%;
-  animation: 40s cloud-ten 5s ease-in-out forwards;
+  /*animation: 40s cloud-ten 5s ease-in-out forwards;*/
   z-index: -10;
 }
 
