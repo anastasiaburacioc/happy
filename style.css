@@ -41,7 +41,7 @@ display: flex;
   /*transform: scale(0);*/
   text-align: center;
       font-size: 12vw;
-    color: #C70039;
+    color: #dd0719;
    animation: text-anim 4s ease-in-out forwards;
 }
 
@@ -72,7 +72,7 @@ font-size: 8vw;
 .words-content:nth-child(1) {
   color: #196f3d;
   left: 8vw;
-  top: 5vh;
+  top: 7vh;
   transform: translateX(-100vw);
   animation: words-anim-1 1.5s 2.5s ease-in-out forwards;
 }
@@ -93,9 +93,9 @@ font-size: 8vw;
 .words-content:nth-child(2) {
   color: #d68910;
   left: 50vw;
-  top: 4vh;
+  top: 6vh;
   transform: translateX(-100vw);
-  animation: words-anim-2 1.5s 2.5s ease-in-out forwards;
+  animation: words-anim-2 1.5s 3s ease-in-out forwards;
 }
 
 @keyframes words-anim-2 {
@@ -116,9 +116,9 @@ font-size: 8vw;
 .words-content:nth-child(3) {
   color: #1f618d;
   left: 8vw;
-  top: 0vh;
+  top: 2vh;
   transform: translateX(-100vw);
-    animation: words-anim-3 1.5s 2.5s ease-in-out forwards;
+    animation: words-anim-3 1.5s 3.5s ease-in-out forwards;
 }
 
 @keyframes words-anim-3 {
@@ -139,9 +139,9 @@ font-size: 8vw;
 .words-content:nth-child(4) {
   color: #8e44ad;
   left: 50vw;
-    top: 0vh;
+    top: 2vh;
     transform: translateX(-100vw);
-      animation: words-anim-4 1.5s 2.5s ease-in-out forwards;
+      animation: words-anim-4 1.5s 4s ease-in-out forwards;
 }
 
 @keyframes words-anim-4 {
@@ -162,9 +162,9 @@ font-size: 8vw;
 .words-content:nth-child(5) {
   color: #117a65;
   left: 8vw;
-    top: 18vh;
+    top: 16vh;
     transform: translateX(-100vw);
-      animation: words-anim-5 1.5s 2.5s ease-in-out forwards;
+      animation: words-anim-5 1.5s 4.5s ease-in-out forwards;
 }
 
 
@@ -186,9 +186,9 @@ font-size: 8vw;
 .words-content:nth-child(6) {
   color: #2471a3;
   left: 50vw;
-    top: 15vh;
+    top: 12vh;
     transform: translateX(-100vw);
-      animation: words-anim-6 1.5s 2.5s ease-in-out forwards;
+      animation: words-anim-6 1.5s 5s ease-in-out forwards;
 }
 
 @keyframes words-anim-6 {
@@ -209,9 +209,9 @@ font-size: 8vw;
 .words-content:nth-child(7) {
   color: #f1c40f;
   left: 8vw;
-    top: 15vh;
+    top: 12vh;
     transform: translateX(-100vw);
-      animation: words-anim-7 1.5s 2.5s ease-in-out forwards;
+      animation: words-anim-7 1.5s 5.5s ease-in-out forwards;
 }
 
 @keyframes words-anim-7 {
@@ -232,9 +232,9 @@ font-size: 8vw;
 .words-content:nth-child(8) {
   color: #cb4335;
   left: 45vw;
-    top: 15vh;
+    top: 12vh;
     transform: translateX(-100vw);
-      animation: words-anim-8 1.5s 2.5s ease-in-out forwards;
+      animation: words-anim-8 1.5s 6s ease-in-out forwards;
     }
     
     @keyframes words-anim-8 {
