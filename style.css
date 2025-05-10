@@ -57,7 +57,7 @@ display: flex;
 
 .ball-1 {
   top: 100vh;
-  left: 100vw;
+  left: 70vw;
   animation: ball-fall-1 10s ease forwards;
   z-index: 3;
 }
@@ -155,7 +155,7 @@ display: flex;
 }
 
 .ball-5 {
-  top: -50vh;
+  top: 0vh;
   left: 30vw;
   animation: ball-fall-5 10s ease forwards;
 }
@@ -175,13 +175,13 @@ display: flex;
 
   100% {
     top: 70vh;
-      left: 70vw;
+      left: 60vw;
     transform: rotate(0grad);
   }
 }
 
 .ball-6 {
-  top: -50vh;
+  top: 0vh;
   left: 60vw;
   animation: ball-fall-6 10s ease forwards;
 }
@@ -207,7 +207,7 @@ display: flex;
 }
 
 .ball-7 {
-  top: -50vh;
+  top: 0vh;
   left: 90vw;
   animation: ball-fall-7 10s ease forwards;
 }
@@ -278,8 +278,8 @@ display: flex;
   }
 
   100% {
-    top: 45vh;
-      left: 70vw;
+    top: 50vh;
+      left: 65vw;
     transform: rotate(0grad);
   }
 }
@@ -409,13 +409,13 @@ display: flex;
 
   100% {
     top: -5vh;
-      left: 80vw;
+      left: 50vw;
     transform: rotate(0grad);
   }
 }
 
 .ball-15 {
-  top: 90vh;
+  top: 50vh;
   left: 0vw;
   animation: ball-fall-15 10s ease forwards;
 }
@@ -434,14 +434,14 @@ display: flex;
   }
 
   100% {
-    top: 90vh;
-      left: 80vw;
+    top: 85vh;
+      left: 75vw;
     transform: rotate(0grad);
   }
 }
 
 .ball-16 {
-  top: 90vh;
+  top: 10vh;
   left: 0vw;
   animation: ball-fall-16 10s ease forwards;
 }
@@ -460,7 +460,7 @@ display: flex;
   }
 
   100% {
-    top: 90vh;
+    top: 85vh;
       left: -2vw;
     transform: rotate(0grad);
   }
