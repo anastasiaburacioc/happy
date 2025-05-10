@@ -22,10 +22,11 @@ balls.forEach(element => {
 
     if (balls.length == 0) {
       let body = document.querySelector('body');
-      body.innerHTML = '<div class="text">GEO,<br>La Mulți Ani!</div>';
+      body.innerHTML = ' <div class="text"><p class="text-content">GEO, </br>LA MULȚI ANI!</p></div>';
+      /*body.innerHTML = '<div class="wave-container"><h1 class="wave-text"><span>G</span><span>E</span><span>O,</span></br><span>L</span><span>A</span>&nbsp&nbsp<span>M</span><span>U</span><span>L</span><span>Ț</span><span>I</span>&nbsp&nbsp<span>A</span><span>N</span><span>I</span><span>!</span></h1></div>';*/
     }
   });
-  
+   
  
 });
 
