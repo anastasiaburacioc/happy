@@ -1,11 +1,14 @@
 let balls = document.querySelectorAll('img[class*="ball"]');
 console.log(balls);
-
+alert('Hei, Geo, sparge baloanele și conectează sunetul!');
 function getRandomInt(min, max) {
   //return Math.floor(Math.random() * max);
  return Math.floor(min + Math.random() * (max - min));
 }
-
+function music() {
+  let video = document.getElementById("audio");
+ video.play();
+ }
 let index = 0;
 balls.forEach(element => {
   let randomSize = getRandomInt(20, 40);
@@ -20,13 +23,17 @@ balls.forEach(element => {
     balls = document.querySelectorAll('img[class*="ball"]');
     console.log(balls);
 
+if (balls.length == 8) {
+   music();
+}
+
     if (balls.length == 0) {
       let body = document.querySelector('body');
-      body.innerHTML = ' <div class="text"><p class="text-content">GEO, </br>LA MULȚI ANI!</p></div>';
-      /*body.innerHTML = '<div class="wave-container"><h1 class="wave-text"><span>G</span><span>E</span><span>O,</span></br><span>L</span><span>A</span>&nbsp&nbsp<span>M</span><span>U</span><span>L</span><span>Ț</span><span>I</span>&nbsp&nbsp<span>A</span><span>N</span><span>I</span><span>!</span></h1></div>';*/
-    }
+      body.innerHTML = '<div class="text"><p class="text-content">GEO, </br>LA MULȚI ANI!</p></div> <div class="words"><p class="words-content">inspirație</p><p class="words-content">oportunități</p><p class="words-content">armonie</p><p class="words-content">prosperitate</p><p class="words-content">curaj</p><p class="words-content">energie</p><p class="words-content">satisfacție</p><p class="words-content">perseverență</p></div>';
+         }
   });
    
  
 });
+
 
