@@ -8,6 +8,12 @@ body {
   /*background-image: radial-gradient(circle 100px at -27.3% 144%, rgba(255, 22, 22, 1) 0%, rgb(63, 44, 44) 43.4%, rgba(0, 0, 0, 1) 65.8%, rgb(238, 28, 28) 100.2%);*/
   padding: 0;
   margin: 0;
+  font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
 }
 
 .ball-background {
@@ -34,14 +40,8 @@ display: flex;
 .text-content {
   /*transform: scale(0);*/
   text-align: center;
-  font-family: "Agu Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "MORF" 0;
-    font-size: 12vw;
-    color: #dd1c1a;
+      font-size: 12vw;
+    color: #C70039;
    animation: text-anim 4s ease-in-out forwards;
 }
 
@@ -53,6 +53,204 @@ display: flex;
     transform: scale(1) ;
   }
 }
+
+.words {
+  position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.words-content {
+  /*transform: scale(0);*/
+ 
+  position: relative;
+color: #dd1c1a;
+font-size: 8vw;
+/*animation: words-anim 4s 5s ease-in-out forwards;*/
+}
+
+.words-content:nth-child(1) {
+  color: #196f3d;
+  left: 8vw;
+  top: 5vh;
+  transform: translateX(-100vw);
+  animation: words-anim-1 1.5s 2.5s ease-in-out forwards;
+}
+
+@keyframes words-anim-1 {
+  0% {
+    transform: rotate(-5grad) translateX(-100vw);
+
+  }
+    50% {
+      transform: rotate(-5grad) translateX(15vw);
+    }
+  100% {
+    transform: rotate(-5grad) translateX(0vw);
+  }
+}
+
+.words-content:nth-child(2) {
+  color: #d68910;
+  left: 50vw;
+  top: 4vh;
+  transform: translateX(-100vw);
+  animation: words-anim-2 1.5s 2.5s ease-in-out forwards;
+}
+
+@keyframes words-anim-2 {
+  0% {
+    transform: rotate(5grad) translateX(100vw);
+
+  }
+
+  50% {
+    transform: rotate(5grad) translateX(-15vw);
+  }
+
+  100% {
+    transform: rotate(5grad) translateX(0vw);
+  }
+}
+
+.words-content:nth-child(3) {
+  color: #1f618d;
+  left: 8vw;
+  top: 0vh;
+  transform: translateX(-100vw);
+    animation: words-anim-3 1.5s 2.5s ease-in-out forwards;
+}
+
+@keyframes words-anim-3 {
+  0% {
+    transform: rotate(-5grad) translateX(-100vw);
+
+  }
+
+  50% {
+    transform: rotate(-5grad) translateX(15vw);
+  }
+
+  100% {
+    transform: rotate(-5grad) translateX(0vw);
+  }
+}
+
+.words-content:nth-child(4) {
+  color: #8e44ad;
+  left: 50vw;
+    top: 0vh;
+    transform: translateX(-100vw);
+      animation: words-anim-4 1.5s 2.5s ease-in-out forwards;
+}
+
+@keyframes words-anim-4 {
+  0% {
+    transform: rotate(5grad) translateX(100vw);
+
+  }
+
+  50% {
+    transform: rotate(5grad) translateX(-15vw);
+  }
+
+  100% {
+    transform: rotate(5grad) translateX(0vw);
+  }
+}
+
+.words-content:nth-child(5) {
+  color: #117a65;
+  left: 8vw;
+    top: 18vh;
+    transform: translateX(-100vw);
+      animation: words-anim-5 1.5s 2.5s ease-in-out forwards;
+}
+
+
+@keyframes words-anim-5 {
+  0% {
+    transform: rotate(-5grad) translateX(-100vw);
+
+  }
+
+  50% {
+    transform: rotate(-5grad) translateX(15vw);
+  }
+
+  100% {
+    transform: rotate(-5grad) translateX(0vw);
+  }
+}
+
+.words-content:nth-child(6) {
+  color: #2471a3;
+  left: 50vw;
+    top: 15vh;
+    transform: translateX(-100vw);
+      animation: words-anim-6 1.5s 2.5s ease-in-out forwards;
+}
+
+@keyframes words-anim-6 {
+  0% {
+    transform: rotate(5grad) translateX(100vw);
+
+  }
+
+  50% {
+    transform: rotate(5grad) translateX(-15vw);
+  }
+
+  100% {
+    transform: rotate(5grad) translateX(0vw);
+  }
+}
+
+.words-content:nth-child(7) {
+  color: #f1c40f;
+  left: 8vw;
+    top: 15vh;
+    transform: translateX(-100vw);
+      animation: words-anim-7 1.5s 2.5s ease-in-out forwards;
+}
+
+@keyframes words-anim-7 {
+  0% {
+    transform: rotate(-5grad) translateX(-100vw);
+
+  }
+
+  50% {
+    transform: rotate(-5grad) translateX(15vw);
+  }
+
+  100% {
+    transform: rotate(-5grad) translateX(0vw);
+  }
+}
+
+.words-content:nth-child(8) {
+  color: #cb4335;
+  left: 45vw;
+    top: 15vh;
+    transform: translateX(-100vw);
+      animation: words-anim-8 1.5s 2.5s ease-in-out forwards;
+    }
+    
+    @keyframes words-anim-8 {
+      0% {
+        transform: rotate(5grad) translateX(100vw);
+    
+      }
+    
+      50% {
+        transform: rotate(5grad) translateX(-15vw);
+      }
+    
+      100% {
+        transform: rotate(5grad) translateX(0vw);
+      }
+    }
 
 .ball-1 {
   top: 100vh;
@@ -206,8 +404,8 @@ display: flex;
 }
 
 .ball-7 {
-  top: 0vh;
-  left: 90vw;
+  top: 90vh;
+  left: 30vw;
   animation: ball-fall-7 10s ease forwards;
 }
 
@@ -225,15 +423,14 @@ display: flex;
   }
 
   100% {
-    top: 60vh;
-      left: -2vw;
+    top: -5vh;
+    left: 50vw;
     transform: rotate(0grad);
   }
 }
-
 .ball-8 {
-  top: 0vh;
-  left: 100vw;
+  top: 90vh;
+  left: 90vw;
   animation: ball-fall-8 10s ease forwards;
 }
 
@@ -251,8 +448,8 @@ display: flex;
   }
 
   100% {
-    top: 20vh;
-      left: 30vw;
+    top: 18vh;
+    left: 5vw;
     transform: rotate(0grad);
   }
 }
@@ -310,8 +507,8 @@ display: flex;
 }
 
 .ball-11 {
-  top: 100vh;
-  left: 100vw;
+  top: 90vh;
+  left: 60vw;
   animation: ball-fall-11 10s ease forwards;
 }
 
@@ -329,15 +526,15 @@ display: flex;
   }
 
   100% {
-    top: 2vh;
-      left: 45vw;
+    top: 40vh;
+    left: 40vw;
     transform: rotate(0grad);
   }
 }
 
 .ball-12 {
-  top: 90vh;
-  left: 90vw;
+  top: 0vh;
+  left: 100vw;
   animation: ball-fall-12 10s ease forwards;
 }
 
@@ -355,15 +552,15 @@ display: flex;
   }
 
   100% {
-    top: 18vh;
-      left: 5vw;
+    top: 20vh;
+    left: 30vw;
     transform: rotate(0grad);
   }
 }
 
 .ball-13 {
-  top: 90vh;
-  left: 60vw;
+  top: 100vh;
+  left: 100vw;
   animation: ball-fall-13 10s ease forwards;
 }
 
@@ -381,15 +578,15 @@ display: flex;
   }
 
   100% {
-    top: 40vh;
-      left: 40vw;
+    top: 2vh;
+    left: 45vw;
     transform: rotate(0grad);
   }
 }
 
 .ball-14 {
-  top: 90vh;
-  left: 30vw;
+  top: 0vh;
+  left: 90vw;
   animation: ball-fall-14 10s ease forwards;
 }
 
@@ -407,12 +604,11 @@ display: flex;
   }
 
   100% {
-    top: -5vh;
-      left: 50vw;
+    top: 60vh;
+    left: -2vw;
     transform: rotate(0grad);
   }
 }
-
 .ball-15 {
   top: 50vh;
   left: 0vw;
