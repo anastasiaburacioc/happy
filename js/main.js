@@ -9,6 +9,7 @@ function music() {
   let video = document.getElementById("audio");
  video.play();
  }
+music();
 let index = 0;
 balls.forEach(element => {
   let randomSize = getRandomInt(20, 40);
@@ -22,10 +23,6 @@ balls.forEach(element => {
     element.remove();
     balls = document.querySelectorAll('img[class*="ball"]');
     console.log(balls);
-
-if (balls.length == 8) {
-   music();
-}
 
     if (balls.length == 0) {
       let body = document.querySelector('body');
