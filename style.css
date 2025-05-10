@@ -3,7 +3,9 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-image: radial-gradient(circle 100px at -27.3% 144%, rgba(255, 22, 22, 1) 0%, rgb(63, 44, 44) 43.4%, rgba(0, 0, 0, 1) 65.8%, rgb(238, 28, 28) 100.2%);
+  background: #8dd0eb;
+    background: linear-gradient(201deg, rgb(129, 208, 240) 0%, rgb(182, 214, 235) 50%, rgb(181, 221, 233) 100%);
+  /*background-image: radial-gradient(circle 100px at -27.3% 144%, rgba(255, 22, 22, 1) 0%, rgb(63, 44, 44) 43.4%, rgba(0, 0, 0, 1) 65.8%, rgb(238, 28, 28) 100.2%);*/
   padding: 0;
   margin: 0;
 }
@@ -39,7 +41,7 @@ display: flex;
     font-variation-settings:
       "MORF" 0;
     font-size: 12vw;
-    color: whitesmoke;
+    color: #dd1c1a;
    animation: text-anim 4s ease-in-out forwards;
 }
 
@@ -47,9 +49,6 @@ display: flex;
   0% {
    transform: scale(0);
   }
-    50% {
-      transform: scale(1);
-    }
   100% {
     transform: scale(1) ;
   }
