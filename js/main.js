@@ -26,7 +26,13 @@ balls.forEach(element => {
 
     if (balls.length == 0) {
       let body = document.querySelector('body');
-      body.innerHTML = '<div class="text"><p class="text-content">GEO, </br>LA MULȚI ANI!</p></div> <div class="words"><p class="words-content">inspirație</p><p class="words-content">oportunități</p><p class="words-content">armonie</p><p class="words-content">prosperitate</p><p class="words-content">curaj</p><p class="words-content">energie</p><p class="words-content">satisfacție</p><p class="words-content">perseverență</p></div><audio id="audio" src="audio/pesenka_krokodila_geny.mp3"></audio><script src="js/main.js"></script> ';
+      let ballBackground = document.querySelector('div[class*="ball"]');
+      ballBackground.remove();
+      let text = document.querySelector('.text');
+      let words = document.querySelector('.words');
+      text.style.display = 'flex';
+    words.style.display = 'inline-block';
+      /*body.innerHTML += '<div class="text"><p class="text-content">GEO, </br>LA MULȚI ANI!</p></div> <div class="words"><p class="words-content">inspirație</p><p class="words-content">oportunități</p><p class="words-content">armonie</p><p class="words-content">prosperitate</p><p class="words-content">curaj</p><p class="words-content">energie</p><p class="words-content">satisfacție</p><p class="words-content">perseverență</p></div>';*/
              }
            
   });
